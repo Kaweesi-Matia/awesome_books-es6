@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome books refactored</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav id="nav_bar">
+                <h1 id="first_heading">Awesome Books</h1>
+                <ul class="nav-list">
+                    <li><a href="#book-list" id="display_list">List</a></li>
+                    <li><a href="#form" id="display_form">Add new</a></li>
+                    <li><a href="#contact" id="display_contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="date"></div>
+        </header>
+        <main >
+            <h1 id="awesome">All awesome books</h1>
+
+            <section class="book-list" id="book-list"></section>
+
+           
+
+            <form id="form">
+                <h2>Add a new book</h2>
+                <input type="text" id="title" placeholder="Title" />
+                <input type="text" id="author" placeholder="Author" />
+                <button type="submit" id="add_book">Add</button>
+            </form>
+            <section id="contact"></section>
+        </main>
+        <footer>
+            <p>Copyright ...</p>
+        </footer>
+    </div>
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>

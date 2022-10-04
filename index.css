@@ -1,0 +1,127 @@
+body {
+  background-color: whitesmoke;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 10px;
+  width: 300px;
+  height: 28px;
+  border: 2px solid black;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  background-color: gray;
+  margin-bottom: 12px;
+  width: 99%;
+  font-family: Calibri, sans-serif;
+  border: 2px solid black;
+  position: fixed;
+  bottom: 25px;
+}
+
+#add_book {
+  position: relative;
+  right: -120px;
+}
+
+main {
+  width: 40%;
+  margin-left: 400px;
+}
+
+.date {
+  font-size: 20px;
+  text-align: right;
+  padding-right: 5px;
+  padding-top: 8px;
+  height: 20px;
+}
+
+.remove-btn {
+  width: 80px;
+  height: 35px;
+  margin-right: 10px;
+  border: 2px solid black;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+
+button {
+  height: 35px;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.book_number {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+  background-color: gray;
+}
+
+#contact {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.nav-list li a:hover {
+  color: blue;
+}
+
+#nav_bar {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: space-between;
+  background-color: grey;
+  align-items: center;
+  width: 100%;
+  margin-right: 11px;
+  border: 2px solid black;
+}
+
+.nav-list > li {
+  list-style: none;
+  margin-right: 18px;
+  border-right: 2px solid black;
+  padding-right: 11px;
+}
+
+.nav-list {
+  display: flex;
+  justify-self: flex-end;
+}
+
+#first_heading {
+  margin-left: 11px;
+  font-size: 30px;
+}
