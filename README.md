@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Click to view Project](https://kaweesi-matia.github.io/Awesome-Books/)
+[Click to view Project]( https://kaweesi-matia.github.io/awesome_books-es6/)
 
 ## Getting Started
 
